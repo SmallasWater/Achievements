@@ -70,7 +70,14 @@ public class Achievements extends PluginBase implements Listener {
             }
         });
         this.getServer().getPluginManager().registerEvents(this,this);
+        try {
+            Class.forName("cn.lanink.murdermystery.MurderMystery");
+            cn.lanink.murdermystery.addons.manager.AddonsManager.registerAddons(
+                    "MurderMysteryAchievements", MurderMysteryAchievements.class);
+            getLogger().info("MurderMysteryAchievements已装载！等待MurderMystery加载...");
+        } catch (Exception ignored) {
 
+        }
     }
 
     @EventHandler
@@ -139,8 +146,8 @@ public class Achievements extends PluginBase implements Listener {
         Player player = event.getPlayer();
         if(food.getRestoreFood() == 4){
             if(player.getFoodData().getLevel() == 0) {
-                if (!player.hasAchievement("openInventory")) {
-                    player.awardAchievement("openInventory");
+                if (!player.hasAchievement("eat")) {
+                    player.awardAchievement("eat");
                 }
             }
         }

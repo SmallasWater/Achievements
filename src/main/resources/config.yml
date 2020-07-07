@@ -1,0 +1,18 @@
+money:
+  - number: 1000
+    msg: "有钱人"
+  - number: 10000
+    msg: "土豪"
+  - number: 10000
+    msg: "隐藏大佬"
+  - number: 1000000
+    msg: "最富!!"
+run:
+  - number: 100
+    msg: "新手入“门”"
+  - number: 1000
+    msg: "运动健儿"
+  - number: 10000
+    msg: "这是在跑马拉松吗？"
+  - number: 100000
+    msg: "马拉松选手！！"

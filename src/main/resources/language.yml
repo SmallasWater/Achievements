@@ -18,6 +18,10 @@ death: "这或许是不错的选择"
 jumpWater: "需要冷静一下"
 frame: "撒点孜然就可以吃了"
 eat: "强大的胃"
-
-
+##MurderMystery成就
+murderMysteryFirstVictory: "首胜！"
+murderMysteryFirstFailure: "失败的滋味..."
+murderMysteryFirstPlayInfected: "生化危机？"
+murderMysteryQualifiedDetective: "合格的侦探！"
+murderMysteryTeamKill: "误伤友军！！！"
 ...
